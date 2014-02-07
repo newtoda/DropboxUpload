@@ -49,7 +49,7 @@ if ($_POST) {
             throw new Exception('Wrong Password');
 
         // Upload
-		$uploader = new DropboxUploader('you@youremail.com', 'yourpassword');// enter dropbox credentials
+		$uploader = new DropboxUploader('danielnewton@charter.net', 'sed66cdJ');// enter dropbox credentials
         $uploader->upload($tmpFile, $_POST['dest']);
 
         echo '<span style="color: green;font-weight:bold;margin-left:393px;">File successfully uploaded to my Dropbox!</span>';
